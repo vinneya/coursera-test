@@ -1,0 +1,87 @@
+<style>
+/********** Base styles **********/
+* {
+  box-sizing: border-box;  
+}
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #9999ff;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.navbar-brand h1 { /* Company name */
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #337ab7;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  padding-bottom: 25px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  background-color: #E7E7E7;
+}
+#nav-list a:hover {
+  background: white;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #337ab7;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -55px;
+}
+#hdiv {
+	height: 15px;
+	width: 100%;
+	background-color: white;
+	/*border: 2px solid black;
+	position: absolute;
+	bottom: 0;*/
+}
+
+/** MAIN CONTENT **/
+/*section div {
+	border: 1px solid #000000
+}*/
+h2 {
+	margin-top: 120px;
+}
+.menu-item{
+	width: 100%;
+	padding-left: 15px;
+    padding-right: 15px;
+	padding-top: 10px;
+	background-color: #9999ff;
+	height: 1000px;
+	margin-bottom: 15px;
+}
+
+/********** Large devices only **********/
+
+/********** Medium devices only **********/
+
+/********** Small devices only **********/
+
+//********* Extra small devices only ******/
+</style>
